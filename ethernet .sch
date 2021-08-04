@@ -1,0 +1,366 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:8P8C_LED_Shielded J6
+U 1 1 61030DB4
+P 8000 3000
+F 0 "J6" H 8000 3575 50  0000 C CNN
+F 1 "8P8C_LED_Shielded" H 8000 3666 50  0000 C CNN
+F 2 "rj45:Würth_RJ45_SMD" V 8000 3025 50  0001 C CNN
+F 3 "~" V 8000 3025 50  0001 C CNN
+	1    8000 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 610329DB
+P 6550 4450
+F 0 "R28" H 6350 4500 50  0000 L CNN
+F 1 "75" H 6400 4400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 6480 4450 50  0001 C CNN
+F 3 "~" H 6550 4450 50  0001 C CNN
+	1    6550 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 610330BC
+P 6750 4450
+F 0 "R29" H 6600 4600 50  0000 L CNN
+F 1 "75" H 6600 4450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 6680 4450 50  0001 C CNN
+F 3 "~" H 6750 4450 50  0001 C CNN
+	1    6750 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R30
+U 1 1 61033255
+P 6950 4450
+F 0 "R30" H 6800 4600 50  0000 L CNN
+F 1 "75" H 6800 4450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 6880 4450 50  0001 C CNN
+F 3 "~" H 6950 4450 50  0001 C CNN
+	1    6950 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R31
+U 1 1 61033422
+P 7100 4450
+F 0 "R31" H 7100 4600 50  0000 L CNN
+F 1 "75" H 7150 4450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 7030 4450 50  0001 C CNN
+F 3 "~" H 7100 4450 50  0001 C CNN
+	1    7100 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R32
+U 1 1 61033CC0
+P 8800 2800
+F 0 "R32" V 8550 2800 50  0000 C CNN
+F 1 "220" V 8650 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 8730 2800 50  0001 C CNN
+F 3 "~" H 8800 2800 50  0001 C CNN
+	1    8800 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R33
+U 1 1 6103420B
+P 8800 3400
+F 0 "R33" V 8550 3400 50  0000 C CNN
+F 1 "220" V 8650 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 8730 3400 50  0001 C CNN
+F 3 "~" H 8800 3400 50  0001 C CNN
+	1    8800 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C23
+U 1 1 610388CC
+P 6550 4950
+F 0 "C23" H 6435 4904 50  0000 R CNN
+F 1 "1nF" H 6435 4995 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 6588 4800 50  0001 C CNN
+F 3 "~" H 6550 4950 50  0001 C CNN
+	1    6550 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C24
+U 1 1 6103A1AA
+P 6900 5700
+F 0 "C24" H 6900 5600 50  0000 R CNN
+F 1 "100uF" H 6900 5800 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 6938 5550 50  0001 C CNN
+F 3 "~" H 6900 5700 50  0001 C CNN
+	1    6900 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C25
+U 1 1 6103A6A1
+P 7200 5700
+F 0 "C25" H 7200 5600 50  0000 R CNN
+F 1 "100uF" H 7200 5800 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 7238 5550 50  0001 C CNN
+F 3 "~" H 7200 5700 50  0001 C CNN
+	1    7200 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:L L7
+U 1 1 6103B4D4
+P 6550 5700
+F 0 "L7" H 6506 5654 50  0000 R CNN
+F 1 "3H" H 6506 5745 50  0000 R CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 6550 5700 50  0001 C CNN
+F 3 "~" H 6550 5700 50  0001 C CNN
+	1    6550 5700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6550 5850 6550 6150
+Wire Wire Line
+	6900 5850 6900 6150
+Wire Wire Line
+	7200 5850 7200 6150
+Wire Wire Line
+	7200 6150 6900 6150
+Connection ~ 6900 6150
+Wire Wire Line
+	6550 6150 6900 6150
+Wire Wire Line
+	7200 5550 7200 5350
+Wire Wire Line
+	7200 5350 6900 5350
+Wire Wire Line
+	6550 5550 6550 5350
+Wire Wire Line
+	6900 5550 6900 5350
+Connection ~ 6900 5350
+Wire Wire Line
+	6900 5350 6550 5350
+Wire Wire Line
+	6550 4600 6550 4750
+Wire Wire Line
+	7100 4600 7100 4750
+Wire Wire Line
+	7100 4750 6950 4750
+Connection ~ 6550 4750
+Wire Wire Line
+	6550 4750 6550 4800
+Wire Wire Line
+	6750 4600 6750 4750
+Connection ~ 6750 4750
+Wire Wire Line
+	6750 4750 6550 4750
+Wire Wire Line
+	6950 4600 6950 4750
+Connection ~ 6950 4750
+Wire Wire Line
+	6950 4750 6750 4750
+Wire Wire Line
+	8650 3400 8400 3400
+Wire Wire Line
+	8650 2800 8400 2800
+Wire Wire Line
+	8000 2500 8000 2200
+Wire Wire Line
+	8000 2200 8350 2200
+Text Label 8350 2200 2    50   ~ 0
+SHİELD
+Text Label 7450 5150 0    50   ~ 0
+SHİELD
+Wire Wire Line
+	6550 5350 6550 5150
+Connection ~ 6550 5350
+Wire Wire Line
+	7450 5150 6550 5150
+Connection ~ 6550 5150
+Wire Wire Line
+	6550 5150 6550 5100
+Text GLabel 9500 2700 2    50   Input ~ 0
+GR-
+Text GLabel 9500 2800 2    50   Input ~ 0
+GR+
+Text GLabel 9500 3300 2    50   Input ~ 0
+YE-
+Text GLabel 9500 3400 2    50   Input ~ 0
+YE+
+Wire Wire Line
+	9500 3400 8950 3400
+Wire Wire Line
+	9500 3300 8400 3300
+Wire Wire Line
+	8950 2800 9500 2800
+Wire Wire Line
+	9500 2700 8400 2700
+Text Notes 7700 3950 0    79   ~ 0
+ETHERNET CONN\n
+Wire Wire Line
+	7100 3300 7600 3300
+Wire Wire Line
+	7600 3400 7100 3400
+Wire Wire Line
+	7100 3300 7100 3400
+Connection ~ 7100 3400
+Wire Wire Line
+	7100 3400 7100 4300
+Wire Wire Line
+	6950 3000 7600 3000
+Wire Wire Line
+	7600 3100 6950 3100
+Wire Wire Line
+	6950 3000 6950 3100
+Connection ~ 6950 3100
+Wire Wire Line
+	6950 3100 6950 4300
+$Comp
+L Transformer:PT61017PEL TR1
+U 1 1 610A59FE
+P 4500 3200
+F 0 "TR1" H 4500 3742 50  0000 C CNN
+F 1 "PT61017PEL" H 4500 3651 50  0000 C CNN
+F 2 "Transformer_SMD:Transformer_Ethernet_Bourns_PT61017PEL" H 4500 2700 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PT61017PEL.pdf" H 3800 3550 50  0001 C CNN
+	1    4500 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4300 6750 3400
+Wire Wire Line
+	6750 3400 4900 3400
+Wire Wire Line
+	6550 4300 6550 3000
+Wire Wire Line
+	6550 3000 4900 3000
+Wire Wire Line
+	4900 2900 5150 2900
+Wire Wire Line
+	5150 2900 5150 3200
+Wire Wire Line
+	5150 3200 7600 3200
+Wire Wire Line
+	4900 3500 6500 3500
+Wire Wire Line
+	6500 2700 7600 2700
+Wire Wire Line
+	6500 2700 6500 3500
+Wire Wire Line
+	4900 3300 6350 3300
+Wire Wire Line
+	6350 3300 6350 2800
+Wire Wire Line
+	6350 2800 7600 2800
+Wire Wire Line
+	7600 2900 5250 2900
+Wire Wire Line
+	5250 2900 5250 3100
+Wire Wire Line
+	5250 3100 4900 3100
+Text GLabel 3000 2900 0    50   Input ~ 0
+RXN-ETH
+Wire Wire Line
+	3000 2900 4100 2900
+Text GLabel 3000 3100 0    50   Input ~ 0
+RXP-ETH
+Text GLabel 3000 3300 0    50   Input ~ 0
+TXN-ETH
+Text GLabel 3000 3500 0    50   Input ~ 0
+TXP-ETH
+Wire Wire Line
+	3000 3100 4100 3100
+Wire Wire Line
+	4100 3300 3000 3300
+Wire Wire Line
+	3000 3500 4100 3500
+$Comp
+L Device:R R3
+U 1 1 610B19AD
+P 3450 3900
+F 0 "R3" H 3250 3950 50  0000 L CNN
+F 1 "0" H 3300 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 3380 3900 50  0001 C CNN
+F 3 "~" H 3450 3900 50  0001 C CNN
+	1    3450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 610B2142
+P 6900 6200
+F 0 "#PWR0118" H 6900 5950 50  0001 C CNN
+F 1 "GND" H 6905 6027 50  0000 C CNN
+F 2 "" H 6900 6200 50  0001 C CNN
+F 3 "" H 6900 6200 50  0001 C CNN
+	1    6900 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 6200 6900 6150
+$Comp
+L power:GND #PWR0119
+U 1 1 610B385F
+P 3050 2550
+F 0 "#PWR0119" H 3050 2300 50  0001 C CNN
+F 1 "GND" V 3055 2422 50  0000 R CNN
+F 2 "" H 3050 2550 50  0001 C CNN
+F 3 "" H 3050 2550 50  0001 C CNN
+	1    3050 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 4050 3450 4050
+$Comp
+L power:+3.3V #PWR0120
+U 1 1 610B573A
+P 3000 4050
+F 0 "#PWR0120" H 3000 3900 50  0001 C CNN
+F 1 "+3.3V" H 3015 4223 50  0000 C CNN
+F 2 "" H 3000 4050 50  0001 C CNN
+F 3 "" H 3000 4050 50  0001 C CNN
+	1    3000 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3750 3450 3400
+$Comp
+L Device:C C20
+U 1 1 610B8FB5
+P 3450 2700
+F 0 "C20" H 3565 2746 50  0000 L CNN
+F 1 "220n" H 3565 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 3488 2550 50  0001 C CNN
+F 3 "~" H 3450 2700 50  0001 C CNN
+	1    3450 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2550 3450 2550
+Wire Wire Line
+	4100 3400 3450 3400
+Connection ~ 3450 3400
+Wire Wire Line
+	3450 3400 3450 3000
+Wire Wire Line
+	4100 3000 3450 3000
+Connection ~ 3450 3000
+Wire Wire Line
+	3450 3000 3450 2850
+$EndSCHEMATC

@@ -1,0 +1,136 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:D_TVS D?
+U 1 1 610279DC
+P 6000 4150
+F 0 "D?" V 5954 4230 50  0000 L CNN
+F 1 "D_TVS" V 6045 4230 50  0000 L CNN
+F 2 "" H 6000 4150 50  0001 C CNN
+F 3 "~" H 6000 4150 50  0001 C CNN
+	1    6000 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61028BA9
+P 5600 3800
+F 0 "R?" V 5393 3800 50  0000 C CNN
+F 1 "R" V 5484 3800 50  0000 C CNN
+F 2 "" V 5530 3800 50  0001 C CNN
+F 3 "~" H 5600 3800 50  0001 C CNN
+	1    5600 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61029135
+P 5750 3700
+F 0 "R?" V 5543 3700 50  0000 C CNN
+F 1 "R" V 5634 3700 50  0000 C CNN
+F 2 "" V 5680 3700 50  0001 C CNN
+F 3 "~" H 5750 3700 50  0001 C CNN
+	1    5750 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 3700 5900 3650
+Wire Wire Line
+	5900 3650 6000 3650
+Wire Wire Line
+	6300 3750 6200 3750
+Wire Wire Line
+	5900 3750 5900 3800
+Wire Wire Line
+	5900 3800 5750 3800
+Wire Wire Line
+	6000 4000 6000 3650
+Connection ~ 6000 3650
+Wire Wire Line
+	6000 3650 6300 3650
+$Comp
+L Device:D_TVS D?
+U 1 1 6102A060
+P 6200 4150
+F 0 "D?" V 6154 4230 50  0000 L CNN
+F 1 "D_TVS" V 6245 4230 50  0000 L CNN
+F 2 "" H 6200 4150 50  0001 C CNN
+F 3 "~" H 6200 4150 50  0001 C CNN
+	1    6200 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6200 4000 6200 3750
+Connection ~ 6200 3750
+Wire Wire Line
+	6200 3750 5900 3750
+Wire Wire Line
+	5200 3700 5600 3700
+Wire Wire Line
+	5600 3900 5600 4300
+Wire Wire Line
+	5600 4300 6000 4300
+Connection ~ 6000 4300
+Wire Wire Line
+	6000 4300 6200 4300
+$Comp
+L power:GND #PWR?
+U 1 1 6102D3F0
+P 6000 4350
+F 0 "#PWR?" H 6000 4100 50  0001 C CNN
+F 1 "GND" H 6005 4177 50  0000 C CNN
+F 2 "" H 6000 4350 50  0001 C CNN
+F 3 "" H 6000 4350 50  0001 C CNN
+	1    6000 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4350 6000 4300
+Wire Wire Line
+	5200 3900 5600 3900
+Text Notes 4350 3200 0    50   ~ 0
+1 RX 
+Text Notes 4350 3300 0    50   ~ 0
+4 TX\n
+Text Notes 4650 3200 0    50   ~ 0
+2 VE 3 ENABLE PINS\n
+Text Notes 4350 3000 0    50   ~ 0
+NOTES\n
+$Comp
+L SN75176B:SN75176A U?
+U 1 1 6102D589
+P 4950 4150
+F 0 "U?" H 4900 3485 50  0000 C CNN
+F 1 "SN75176A" H 4900 3576 50  0000 C CNN
+F 2 "" H 4950 4150 50  0001 C CNN
+F 3 "" H 4950 4150 50  0001 C CNN
+	1    4950 4150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5200 3800 5450 3800
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 6102FC32
+P 6500 3750
+F 0 "J?" H 6472 3632 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 6472 3723 50  0000 R CNN
+F 2 "" H 6500 3750 50  0001 C CNN
+F 3 "~" H 6500 3750 50  0001 C CNN
+	1    6500 3750
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

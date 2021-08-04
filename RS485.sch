@@ -1,0 +1,205 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6300 3750 6200 3750
+Wire Wire Line
+	5900 3750 5900 3800
+Wire Wire Line
+	5900 3800 5750 3800
+Connection ~ 6200 3750
+Wire Wire Line
+	6200 3750 5900 3750
+Wire Wire Line
+	5200 3900 5600 3900
+Text Notes 3400 3150 0    79   ~ 0
+1 RX 
+Text Notes 3850 3150 0    79   ~ 0
+4 TX\n
+Text Notes 4400 3150 0    79   ~ 0
+2 VE 3 ENABLE PINS\n
+Text Notes 3900 2950 0    79   ~ 0
+NOTES\n
+$Comp
+L SN75176B:SN75176A U3
+U 1 1 6102D589
+P 4950 4150
+F 0 "U3" H 4900 3485 50  0000 C CNN
+F 1 "SN65HVD10" H 4900 3576 50  0000 C CNN
+F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 4950 4150 50  0001 C CNN
+F 3 "" H 4950 4150 50  0001 C CNN
+	1    4950 4150
+	1    0    0    1   
+$EndComp
+Text Notes 6550 3400 0    79   ~ 0
+KLEMENS Konulacak\n
+Text GLabel 4300 3700 0    50   Input ~ 0
+RS_RX
+Text GLabel 4250 4000 0    50   Input ~ 0
+RS_TX
+Wire Wire Line
+	4300 3700 4600 3700
+Wire Wire Line
+	4250 4000 4600 4000
+$Comp
+L power:GND #PWR0113
+U 1 1 61055C10
+P 5200 4000
+F 0 "#PWR0113" H 5200 3750 50  0001 C CNN
+F 1 "GND" H 5205 3827 50  0000 C CNN
+F 2 "" H 5200 4000 50  0001 C CNN
+F 3 "" H 5200 4000 50  0001 C CNN
+	1    5200 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3800 4600 3850
+Wire Wire Line
+	4600 3850 4500 3850
+Connection ~ 4600 3850
+Wire Wire Line
+	4600 3850 4600 3900
+Text GLabel 4500 3850 0    50   Input ~ 0
+RE_DE_IO
+Wire Notes Line
+	3200 3450 7350 3450
+Wire Notes Line
+	7350 3450 7350 4600
+Wire Notes Line
+	7350 4600 3200 4600
+Wire Notes Line
+	3200 4600 3200 3450
+$Comp
+L Device:R R14
+U 1 1 61028BA9
+P 5750 3950
+F 0 "R14" H 5850 3850 50  0000 C CNN
+F 1 "120R" H 5650 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 5680 3950 50  0001 C CNN
+F 3 "~" H 5750 3950 50  0001 C CNN
+	1    5750 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5200 3800 5750 3800
+Connection ~ 5750 3800
+$Comp
+L Device:C_Small C30
+U 1 1 61081D7D
+P 5700 3600
+F 0 "C30" H 5700 3650 50  0000 L CNN
+F 1 "10u" H 5500 3550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 5700 3600 50  0001 C CNN
+F 3 "~" H 5700 3600 50  0001 C CNN
+	1    5700 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3700 5700 3700
+Wire Wire Line
+	5700 3700 5850 3700
+Wire Wire Line
+	5850 3700 5850 3550
+Wire Wire Line
+	5850 3550 6000 3550
+Connection ~ 5700 3700
+$Comp
+L power:+3.3V #PWR0127
+U 1 1 61082A4C
+P 6000 3550
+F 0 "#PWR0127" H 6000 3400 50  0001 C CNN
+F 1 "+3.3V" H 6015 3723 50  0000 C CNN
+F 2 "" H 6000 3550 50  0001 C CNN
+F 3 "" H 6000 3550 50  0001 C CNN
+	1    6000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0128
+U 1 1 61082F56
+P 5700 3500
+F 0 "#PWR0128" H 5700 3250 50  0001 C CNN
+F 1 "GND" V 5705 3327 50  0000 C CNN
+F 2 "" H 5700 3500 50  0001 C CNN
+F 3 "" H 5700 3500 50  0001 C CNN
+	1    5700 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 3900 5600 4100
+Wire Wire Line
+	5600 4100 5750 4100
+Connection ~ 5750 4100
+Wire Wire Line
+	6200 3750 6200 4150
+$Comp
+L Device:D_Schottky D1
+U 1 1 610F5672
+P 6000 4300
+F 0 "D1" V 6000 4100 50  0000 L CNN
+F 1 "D_Schottky" V 6100 3850 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp" H 6000 4300 50  0001 C CNN
+F 3 "~" H 6000 4300 50  0001 C CNN
+	1    6000 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D2
+U 1 1 610F5184
+P 6200 4300
+F 0 "D2" V 6154 4380 50  0000 L CNN
+F 1 "D_Schottky" V 6245 4380 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp" H 6200 4300 50  0001 C CNN
+F 3 "~" H 6200 4300 50  0001 C CNN
+	1    6200 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 6102D3F0
+P 6350 4450
+F 0 "#PWR0112" H 6350 4200 50  0001 C CNN
+F 1 "GND" H 6355 4277 50  0000 C CNN
+F 2 "" H 6350 4450 50  0001 C CNN
+F 3 "" H 6350 4450 50  0001 C CNN
+	1    6350 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6350 4450 6200 4450
+Connection ~ 6200 4450
+Wire Wire Line
+	6200 4450 6000 4450
+Wire Wire Line
+	5750 4100 6000 4100
+Wire Wire Line
+	6000 4150 6000 4100
+Connection ~ 6000 4100
+Wire Wire Line
+	6000 4100 6300 4100
+$Comp
+L Connector:klemens-2 U7
+U 1 1 610F7215
+P 6550 4000
+F 0 "U7" H 6422 3759 50  0000 R CNN
+F 1 "klemens-2" H 6422 3850 50  0000 R CNN
+F 2 "2liKlemens:TE_282837-2" H 6550 4000 50  0001 C CNN
+F 3 "" H 6550 4000 50  0001 C CNN
+	1    6550 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6300 4100 6300 3850
+$EndSCHEMATC
