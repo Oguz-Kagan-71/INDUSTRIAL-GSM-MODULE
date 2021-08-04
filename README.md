@@ -14,6 +14,6 @@
 - Anten bağlantısı nasıl olmalıdır ?
 - Haberleşme bağlantıları nasıl olmalıdır ?
 - GSM modülü nasıl çalışır ? Hangi amaca hizmet eder ?
-- Canbus protokolü nedir ? Diğer haberleşme türlerinden farkı nedir ?
+- Modbus protokolü nedir ? Diğer haberleşme türlerinden farkı nedir ?
 - 
 -
