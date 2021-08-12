@@ -154,7 +154,7 @@ P 13400 10600
 F 0 "U2" H 13450 10650 50  0000 R CNN
 F 1 "MG2608" H 5600 17700 50  0000 R CNN
 F 2 "Module:MG2608-G" V 6950 17950 50  0001 C CNN
-F 3 "" V 6950 17950 50  0001 C CNN
+F 3 "https://pdf.direnc.net/upload/gosuncn-mg2608-g-hardware-development-guide-v1.pdf" V 6950 17950 50  0001 C CNN
 	1    13400 10600
 	1    0    0    -1  
 $EndComp
@@ -205,8 +205,6 @@ Wire Wire Line
 Connection ~ 7050 4250
 Wire Wire Line
 	7050 4250 7050 4450
-Text GLabel 4600 1050 1    50   Input ~ 0
-4V1
 Wire Wire Line
 	5100 4700 5100 4850
 $Comp
@@ -531,4 +529,15 @@ $EndComp
 Connection ~ 7700 4800
 Wire Wire Line
 	7700 4800 7900 4800
+$Comp
+L power:+4V #PWR0122
+U 1 1 61153566
+P 4600 1050
+F 0 "#PWR0122" H 4600 900 50  0001 C CNN
+F 1 "+4V" H 4615 1223 50  0000 C CNN
+F 2 "" H 4600 1050 50  0001 C CNN
+F 3 "" H 4600 1050 50  0001 C CNN
+	1    4600 1050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

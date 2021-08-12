@@ -62,7 +62,7 @@ L Device:R_Small R20
 U 1 1 6116A62C
 P 6350 3400
 F 0 "R20" H 6409 3446 50  0000 L CNN
-F 1 "2.33k" H 6409 3355 50  0000 L CNN
+F 1 "4.7k" H 6409 3355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" H 6350 3400 50  0001 C CNN
 F 3 "~" H 6350 3400 50  0001 C CNN
 	1    6350 3400
@@ -97,7 +97,7 @@ Connection ~ 6350 2600
 Wire Wire Line
 	6350 2600 6900 2600
 Wire Wire Line
-	6350 3300 6350 3000
+	6350 3300 6350 3150
 Wire Wire Line
 	5450 2700 6200 2700
 Wire Wire Line
@@ -119,7 +119,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 3700 6900 3150
 Wire Wire Line
-	6350 3500 6350 3700
+	6350 3500 6350 3600
 Connection ~ 6350 3700
 Wire Wire Line
 	6350 3700 6900 3700
@@ -247,22 +247,12 @@ Wire Wire Line
 	4300 3650 4300 3700
 Connection ~ 4300 3700
 Wire Wire Line
-	4300 3700 4450 3700
-Wire Wire Line
 	3800 3350 3800 3700
 Wire Wire Line
-	3800 3700 4300 3700
+	3800 3700 4100 3700
 Wire Wire Line
 	3550 3700 3800 3700
 Connection ~ 3800 3700
-Wire Wire Line
-	4450 2700 4450 2800
-Connection ~ 4450 3700
-Wire Wire Line
-	4450 3700 4950 3700
-Connection ~ 4450 2800
-Wire Wire Line
-	4450 2800 4450 3700
 $Comp
 L Device:C C18
 U 1 1 61178357
@@ -390,4 +380,38 @@ F 3 "" H 3200 5950 50  0001 C CNN
 	1    3200 5950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4300 3700 4950 3700
+Wire Wire Line
+	4450 2700 4100 2700
+Wire Wire Line
+	4100 2700 4100 3700
+Connection ~ 4100 3700
+Wire Wire Line
+	4100 3700 4300 3700
+$Comp
+L Device:R_Small R21
+U 1 1 61174D5D
+P 6000 3400
+F 0 "R21" H 6059 3446 50  0000 L CNN
+F 1 "4.7k" H 6059 3355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 6000 3400 50  0001 C CNN
+F 3 "~" H 6000 3400 50  0001 C CNN
+	1    6000 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3300 6000 3150
+Wire Wire Line
+	6000 3150 6350 3150
+Connection ~ 6350 3150
+Wire Wire Line
+	6350 3150 6350 3000
+Wire Wire Line
+	6000 3500 6000 3600
+Wire Wire Line
+	6000 3600 6350 3600
+Connection ~ 6350 3600
+Wire Wire Line
+	6350 3600 6350 3700
 $EndSCHEMATC

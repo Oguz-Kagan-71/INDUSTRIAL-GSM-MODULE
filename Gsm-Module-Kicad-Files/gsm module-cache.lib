@@ -681,11 +681,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# gsm-module-rescue_CP1-Device-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue
+# gsm-module-rescue_CP1-Device-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue
 #
-DEF gsm-module-rescue_CP1-Device-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue C 0 10 N N 1 F N
+DEF gsm-module-rescue_CP1-Device-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue C 0 10 N N 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "gsm-module-rescue_CP1-Device-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue" 25 -100 50 H V L CNN
+F1 "gsm-module-rescue_CP1-Device-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue" 25 -100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -701,11 +701,11 @@ X ~ 2 0 -150 130 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# gsm-module-rescue_NUC126LG4AE-NUC126LG4AE-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue
+# gsm-module-rescue_NUC126LG4AE-NUC126LG4AE-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue
 #
-DEF gsm-module-rescue_NUC126LG4AE-NUC126LG4AE-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue LQFP48 0 40 Y Y 1 F N
+DEF gsm-module-rescue_NUC126LG4AE-NUC126LG4AE-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue LQFP48 0 40 Y Y 1 F N
 F0 "LQFP48" -2450 8150 50 H V C CNN
-F1 "gsm-module-rescue_NUC126LG4AE-NUC126LG4AE-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue" -2450 8050 50 H V C CNN
+F1 "gsm-module-rescue_NUC126LG4AE-NUC126LG4AE-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue" -2450 8050 50 H V C CNN
 F2 "" -2450 8150 50 H I C CNN
 F3 "" -2450 8150 50 H I C CNN
 DRAW

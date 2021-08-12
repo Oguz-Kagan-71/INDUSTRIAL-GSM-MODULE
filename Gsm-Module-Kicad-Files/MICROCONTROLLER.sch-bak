@@ -280,7 +280,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 2650 4850 2650
 $Comp
-L gsm-module-rescue:NUC126LG4AE-NUC126LG4AE-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue LQFP481
+L gsm-module-rescue:NUC126LG4AE-NUC126LG4AE-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue LQFP481
 U 1 1 6102037D
 P 8200 9100
 AR Path="/6102037D" Ref="LQFP481"  Part="1" 
@@ -325,7 +325,7 @@ Wire Wire Line
 	4850 4400 4850 4350
 Connection ~ 4450 4400
 $Comp
-L gsm-module-rescue:CP1-Device-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue C9
+L gsm-module-rescue:CP1-Device-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue-gsm-module-rescue C9
 U 1 1 61133DF4
 P 3500 4950
 AR Path="/61133DF4" Ref="C9"  Part="1" 

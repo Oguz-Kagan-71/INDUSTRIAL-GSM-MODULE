@@ -39,7 +39,7 @@ P 4950 4150
 F 0 "U3" H 4900 3485 50  0000 C CNN
 F 1 "SN65HVD10" H 4900 3576 50  0000 C CNN
 F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 4950 4150 50  0001 C CNN
-F 3 "" H 4950 4150 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn65hvd10.pdf?ts=1628747975490&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN65HVD10" H 4950 4150 50  0001 C CNN
 	1    4950 4150
 	1    0    0    1   
 $EndComp
