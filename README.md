@@ -10,7 +10,7 @@
 - Buck converter nedir ? Nasıl tasarlanır ?
 - Yüksek voltaj kullanılan bir projede tasarım nasıl olmalıdır ? Regüle edilirken kullanılan komponentler nasıl konumlandırılmalıdır ?
 - Konnektörler nasıl konumlandırılmalıdır ?
-- Bağlantılar ne zaman kalın ne zaman standart olmalıdır ?
+- Bağlantı kalınlıkları nasıl olmalıdır ?
 - Anten bağlantısı nasıl olmalıdır ?
 - Haberleşme bağlantıları nasıl olmalıdır ?
 - GSM modülü nasıl çalışır ? Hangi amaca hizmet eder ?
